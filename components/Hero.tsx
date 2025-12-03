@@ -188,7 +188,7 @@ const Hero: React.FC = () => {
                  alt="Donald Esset" 
                  className="w-full h-full object-cover"
                  onError={(e) => {
-                   e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80";
+                   e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=81";
                    e.currentTarget.style.filter = "grayscale(100%)";
                  }}
                />
