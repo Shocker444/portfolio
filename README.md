@@ -1,4 +1,4 @@
-# [Donald] - Portfolio
+# Portfolio
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
 [![Status](https://img.shields.io/badge/Status-Complete/Ongoing-green)](/) 
