@@ -184,7 +184,7 @@ const Hero: React.FC = () => {
              <div className="absolute inset-0 border border-zinc-800 rounded-full transform translate-x-4 translate-y-4" />
              <div className="relative w-full h-full rounded-full overflow-hidden border border-zinc-800 bg-zinc-900 grayscale hover:grayscale-0 transition-all duration-700">
                <img 
-                 src="./moonshot.jpg" 
+                 src="moonshot.jpg" 
                  alt="Donald Esset" 
                  className="w-full h-full object-cover"
                  onError={(e) => {
