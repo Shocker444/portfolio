@@ -18,11 +18,29 @@ export const EXPERIENCE_DATA: Experience[] = [
     role: "Lead AI Engineer",
     company: "Nurri AI",
     highlights: [
-      "Designed and implemented machine learning pipelines for high-efficiency data extraction, transformation, and \
-      retrieval from the ground up using the Qdrant vector database for storage.",
-      "Integrated autonomous AI agents.",
-      "Collaborated with cross-functional teams to deploy and scale AI pipelines on AWS and build business logic \
-      microservices using FastAPI, ensuring continuous"
+      "Designed and implemented AI-native backend systems and full-stack workflows for data extraction, retrieval, and \
+      user-facing applications using FastAPI as backend integration and Qdrant as vector database .",
+      "Built and optimized Retrieval-Augmented Generation (RAG) pipelines to support disciplined, context-aware user \
+      interactions.",
+      "Integrated LLMs into production systems to enhance reasoning, and prompt reliability. Optimized LLM generation time \
+      by 5% decrease in generation time",
+      "Collaborated with cross-functional teams to deploy and scale AI pipelines on Google Cloud Platform(GCP) and build \
+      business logic microservices using FastAPI, ensuring continuous monitoring, system optimization, cost efficiency and \
+      effectiveness of the products, supporting clean system design and long-term maintainability"
+    ]
+  },
+  {
+    role: "Research and Analytics Engineer",
+    company: "Amazing Inspiration media LTD",
+    highlights: [
+      "Analyzed radio rankings, audience reach, and listenership trends using structured datasets from an internal analytics \
+      platform (Harmoni) to support programming and business decisions.",
+      "Performed data cleaning, validation, and exploratory analysis to identify patterns in audience behavior across time \
+      slots, programs, and demographics",
+      "Generated periodic analytical reports and summaries highlighting performance trends, growth opportunities, and areas \
+      for improvement.",
+      "Collaborated with content and management teams to translate data insights into actionable recommendations aimed \
+      at improving audience engagement and station performance."
     ]
   },
   {
@@ -36,10 +54,13 @@ export const EXPERIENCE_DATA: Experience[] = [
   },
   {
     role: "Open Source Contributor",
-    company: "Unify AI",
+    company: "Outreachy",
     highlights: [
-      "Contributed to the development of the Ivy framework, an open-source machine learning framework by adding \
-      new features, fixing bugs using python and TensorFlow"
+      "Implemented multiple scientific algebraic functions to enhance RavenML, strengthening the RavenML ecosystem with \
+      new mathematical functions, providing a foundation for future contributors.",
+      "Developed and submitted 4 pull requests, of which 3 were successfully merged into the main codebase.",
+      "Developed production-quality code in OCaml, demonstrating the feasibility of ML systems in functional programming \
+      environments.",
     ]
   }
 ];
@@ -52,10 +73,10 @@ export const PROJECTS_DATA: Project[] = [
     githubUrl: "https://github.com/Shocker444/Resume-Analyzer"
   },
   {
-    title: "Age Progression/Regression model (Gen AI)",
-    description: "Implemented Conditional Adversarial Autoencoders (cAAE) to predict future and past facial appearances based on a research paper. Fine-tuned adversarial loss functions to improve realism.",
-    tags: ["GenAI", "Autoencoders", "Computer Vision"],
-    githubUrl: "https://github.com/Shocker444/Age_progression-regression"
+    title: "Shocker: AI Candidate Interviewer",
+    description: "AI-powered interview platform that conducts technical interviews, evaluates responses, and provides detailed feedback to candidates.",
+    tags: ["Svelte", "GPT-4.1", "Python", "Deepgram", "ElevenLabs", "FastAPI", "Typescript"],
+    githubUrl: "https://github.com/Shocker444/Shocker-Agent"
   },
   {
     title: "Automatic Plate Number Recognition (APNR)",

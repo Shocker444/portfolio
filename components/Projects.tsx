@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import { PROJECTS_DATA } from '../constants';
-import { ExternalLink, BrainCircuit, ScanFace, ScanLine, Activity } from 'lucide-react';
+import { ExternalLink, BrainCircuit, ScanFace, ScanLine, Activity, CloudLightning } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Projects: React.FC = () => {
@@ -15,9 +15,9 @@ const Projects: React.FC = () => {
       border: "border-violet-500/20 group-hover:border-violet-500/50" 
     };
     
-    // Age Progression - Cyan
-    if (title.includes("Age")) return { 
-      Icon: ScanFace, 
+    // Shocker: AI Candidate Interviewer - Cyan
+    if (title.includes("Shocker")) return { 
+      Icon: CloudLightning, 
       color: "text-cyan-400", 
       bg: "bg-cyan-500/10 group-hover:bg-cyan-500/20", 
       border: "border-cyan-500/20 group-hover:border-cyan-500/50" 
