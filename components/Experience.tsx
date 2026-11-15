@@ -27,6 +27,11 @@ const Experience: React.FC = () => {
               <h3 className="text-xl md:text-2xl font-bold text-white">
                 {job.role} <span className="text-zinc-400">@ {job.company}</span>
               </h3>
+              {job.period && (
+                <p className="mt-1 text-sm text-zinc-500">
+                  {job.period}{job.location ? ` · ${job.location}` : ''}
+                </p>
+              )}
             </div>
             
             <ul className="space-y-3 mt-4">

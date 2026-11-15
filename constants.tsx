@@ -15,6 +15,18 @@ export const PERSONAL_INFO = {
 
 export const EXPERIENCE_DATA: Experience[] = [
   {
+    role: "AI Engineer",
+    company: "Metricoid Technology Solutions",
+    period: "Jul 2026 – Dec 2026",
+    location: "Remote",
+    highlights: [
+      "Built and deployed production voice agents using low-latency FastAPI and WebSocket services with multi-stage speech-to-text, LLM, and text-to-speech pipelines.",
+      "Automated company-wide workflows with a fleet of AI agents, including a code-review agent that can be installed in any repository.",
+      "Built CRM monitoring, visibility, and SEO agents that analyze live data and surface actionable recommendations.",
+      "Integrated an assistant with Google Workspace to consolidate reporting from the agents."
+    ]
+  },
+  {
     role: "Lead AI Engineer",
     company: "Nurri AI",
     highlights: [
